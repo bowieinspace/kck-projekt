@@ -1,0 +1,15 @@
+{% load static %}
+<html>
+<head>
+  <title>Human augmentation</title>
+  <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+  </head>
+  <body>
+<header>
+  <a href="{% url 'home' %}">Home</a> | <a href="{% url 'about' %}">About</a> | <a href="{% url 'mypage' %}">My page</a>
+</header>
+</body>
+</html>
+
+{% block content %}
+{% endblock content %}
